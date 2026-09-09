@@ -9,17 +9,19 @@ Cursor と GitHub 連携のテスト用プロジェクトです。
 - 先行: プレイヤー（●）
 - 後攻: コンピューター（×）
 
-### 起動方法
+### 公開 URL（GitHub Pages）
 
-プロジェクトフォルダで次を実行し、表示された URL をブラウザで開きます。
+https://eldred555.github.io/Test-Project-Cursor/
+
+（初回デプロイ後、反映まで1〜2分かかることがあります）
+
+### ローカル起動
 
 ```bash
 python -m http.server 8000
 ```
 
 ブラウザで http://localhost:8000 を開いてください。
-
-`index.html` を直接ダブルクリックして開くこともできます。
 
 ### ファイル構成
 
