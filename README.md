@@ -2,16 +2,25 @@
 
 Cursor と GitHub 連携のテスト用プロジェクトです。
 
-## 目的
+## ●×ゲーム
 
-- Cursor で作成したコードを GitHub の非公開リポジトリに push できることを確認する
+3×3 の ●×（三目並べ）です。
 
-## 使い方
+- 先行: プレイヤー（●）
+- 後攻: コンピューター（×）
 
-変更をコミットして push する例:
+### 実行方法
 
 ```bash
-git add .
-git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "Update"
-git push
+python tic_tac_toe.py
+```
+
+マス番号 1〜9 を入力して打ちます。
+
+```
+ 1 | 2 | 3
+---+---+---
+ 4 | 5 | 6
+---+---+---
+ 7 | 8 | 9
 ```
